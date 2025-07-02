@@ -1,0 +1,7 @@
+setcpm(96/4)
+
+$: s("[bd <hh oh>]*4").bank("tr909").dec(.4).gain(0.5)
+
+$: note("[F6 C6 <E6!7 G6> C6]*4").sound("piano").gain("[1 0.4 0.75 0.4]")
+
+$: note("<D3 [C3 A2] Bb2 ~>").sound("piano")
